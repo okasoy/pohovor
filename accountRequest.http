@@ -1,0 +1,25 @@
+POST http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+  "username": "Kseniya",
+  "password": "kseniya2",
+  "payment": 0
+}
+###
+POST http://localhost:8080/api/user
+Content-Type: application/json
+
+{
+  "username": "DDD1122",
+  "password": "DDD11223",
+  "payment": 0
+}
+###
+PUT http://localhost:8080/api/user/pay
+Content-Type: application/json
+
+{
+  "username": "DDD1122",
+  "payment": 30
+}
